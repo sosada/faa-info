@@ -19,3 +19,6 @@ cd alexa-app-server/examples
 node server
 
 http://localhost:8080/alexa/airportinfo
+
+https://console.aws.amazon.com/lambda
+Copy arn when done: arn:aws:lambda:us-east-1:309110992249:function:airportInfoService

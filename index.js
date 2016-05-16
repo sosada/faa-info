@@ -30,9 +30,9 @@ app.intent('airportInfo', {
         // Get the slot
 
         var airportCode = req.slot('AIRPORTCODE');
-        var reprompt = 'Tell me an airport code to get delay information':
+        var reprompt = 'Tell me an airport code to get delay information';
         if (_.isEmpty(airportCode)) {
-            var prompt = 'I didn\t hear an airport code. Tell me an airport code.';
+            var prompt = 'I didn\'t hear an airport code. Tell me an airport code.';
             res.say(prompt).reprompt(reprompt).shouldEndSession(false);
             return true;
         } else {
@@ -50,4 +50,7 @@ app.intent('airportInfo', {
     }
 
 );
+//hack to support custom utterances in utterance expansion string
+console.log(app.utterances().replace(/\{\-\|/g, '{'));
+
 module.exports = app;
