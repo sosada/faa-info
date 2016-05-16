@@ -31,5 +31,12 @@ describe('FAADataHelper', function() {
                return expect(value).to.eventually.eq(airport_code);
            }) ;
         });
+
+        context('with an invalid airport code', function() {
+           it('returns an invalid airport code', function() {
+               airport_code = 'PUNKYBREWSTER';
+               return expect(subject.requestAirportStatus(airport_code)).to.be.rejectedWith(Error);
+           }) ;
+        });
     });
 });
