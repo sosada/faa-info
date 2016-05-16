@@ -23,8 +23,7 @@ app.intent('airportInfo', {
         'AIRPORTCODE': 'FAACODES'
     },
 
-    'utterances': ['{|flight|airport} {|delay|status} {|info} {|for} {-|AIRPORTCODE}']
-
+        'utterances': ['{|flight|airport} {|delay|status} {|info} {|for} {-|AIRPORTCODE}']
 },
     function(req, res) {
         // Get the slot
@@ -51,6 +50,7 @@ app.intent('airportInfo', {
 
 );
 //hack to support custom utterances in utterance expansion string
+// Otherwise, the server outputs extra characters
 console.log(app.utterances().replace(/\{\-\|/g, '{'));
 
 module.exports = app;
