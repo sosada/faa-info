@@ -12,3 +12,4 @@ mkdir test
 vi test_faa_data_helper.js
 vi faa_data_helper.js
 npm test
+vi index.js
