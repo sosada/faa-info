@@ -1,0 +1,36 @@
+airportInfo	 {-|AIRPORTCODE}
+airportInfo	flight {-|AIRPORTCODE}
+airportInfo	airport {-|AIRPORTCODE}
+airportInfo	 delay {-|AIRPORTCODE}
+airportInfo	flight delay {-|AIRPORTCODE}
+airportInfo	airport delay {-|AIRPORTCODE}
+airportInfo	 status {-|AIRPORTCODE}
+airportInfo	flight status {-|AIRPORTCODE}
+airportInfo	airport status {-|AIRPORTCODE}
+airportInfo	 info {-|AIRPORTCODE}
+airportInfo	flight info {-|AIRPORTCODE}
+airportInfo	airport info {-|AIRPORTCODE}
+airportInfo	 delay info {-|AIRPORTCODE}
+airportInfo	flight delay info {-|AIRPORTCODE}
+airportInfo	airport delay info {-|AIRPORTCODE}
+airportInfo	 status info {-|AIRPORTCODE}
+airportInfo	flight status info {-|AIRPORTCODE}
+airportInfo	airport status info {-|AIRPORTCODE}
+airportInfo	 for {-|AIRPORTCODE}
+airportInfo	flight for {-|AIRPORTCODE}
+airportInfo	airport for {-|AIRPORTCODE}
+airportInfo	 delay for {-|AIRPORTCODE}
+airportInfo	flight delay for {-|AIRPORTCODE}
+airportInfo	airport delay for {-|AIRPORTCODE}
+airportInfo	 status for {-|AIRPORTCODE}
+airportInfo	flight status for {-|AIRPORTCODE}
+airportInfo	airport status for {-|AIRPORTCODE}
+airportInfo	 info for {-|AIRPORTCODE}
+airportInfo	flight info for {-|AIRPORTCODE}
+airportInfo	airport info for {-|AIRPORTCODE}
+airportInfo	 delay info for {-|AIRPORTCODE}
+airportInfo	flight delay info for {-|AIRPORTCODE}
+airportInfo	airport delay info for {-|AIRPORTCODE}
+airportInfo	 status info for {-|AIRPORTCODE}
+airportInfo	flight status info for {-|AIRPORTCODE}
+airportInfo	airport status info for {-|AIRPORTCODE}
