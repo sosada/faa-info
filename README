@@ -1,6 +1,11 @@
 https://developer.amazon.com/public/community/post/Tx3DV6ANE5HTG9H/Big-Nerd-Ranch-Series-Developing-Alexa-Skills-Locally-with-Node-js-Setting-Up-Yo
-mkdir cta
-cd cta
+
+git clone https://github.com/matt-kruse/alexa-app-server.git
+cd alexa-app-server
+npm install
+cd examples/apps/
+mkdir faa-info
+cd faa-info
 npm init
 nnpm install --save alexa-app alexa-app-server chai chai-as-promised mocha lodash request-promise
 mkdir test
