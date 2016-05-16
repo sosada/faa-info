@@ -22,3 +22,8 @@ http://localhost:8080/alexa/airportinfo
 
 https://console.aws.amazon.com/lambda
 Copy arn when done: arn:aws:lambda:us-east-1:309110992249:function:airportInfoService
+Set up skill in Alexa
+https://developer.amazon.com/edw/home.html%2523/skills/list
+
+FAA Codes
+https://gist.githubusercontent.com/mutexkid/76e3240c4104555409ce/raw/6e4afceda0db412f9a43ce9e53b2a6a69455e74a/faacodes
