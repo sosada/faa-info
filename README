@@ -1,0 +1,9 @@
+https://developer.amazon.com/public/community/post/Tx3DV6ANE5HTG9H/Big-Nerd-Ranch-Series-Developing-Alexa-Skills-Locally-with-Node-js-Setting-Up-Yo
+mkdir cta
+cd cta
+npm init
+nnpm install --save alexa-app alexa-app-server chai chai-as-promised mocha lodash request-promise
+mkdir test
+vi test_faa_data_helper.js
+vi faa_data_helper.js
+npm test
